@@ -5,22 +5,22 @@ import  './username.css'
 function Username() {
   return (
     <div className="container mx-auto">
-      <div className="flex  h-screen">
+      <div className="flex justify-center items-center h-screen">
         <div className='glass' >
           <div className="title flex flex-col items-center ">
-            <h4 className="text-5xl font-bold">Hello Again!!</h4>
-            <span className="py-4 text-xl w-2/3 text-center text-gray-500">
-              Hey whastaup Hey whastaup Hey whastaup
+            <h4 className="text-4xl font-bold">Hello There!!</h4>
+            <span className="py-3 text-xl w-2/3 text-center text-gray-500">
+              Hey whastaup Hey Hey whastaup
             </span>
           </div>
 
           <form className="py-1">
-            <div className="profile flex justify-center py-4">
+            <div className="profile flex justify-center py-3">
               <img  src={avatar} className='profile_image'  alt="avatar" />
             </div>
 
-            <div className="textbox flex flex-col items-center gap-6 ">
-              <input className="textbox" type="text" placeholder="UserName" />
+            <div className="textbox flex flex-col items-center gap-4 ">
+              <input className="textboxx" type="text" placeholder="UserName" />
               <button className="btn" type="submit">Let's Go</button>
             </div>
 

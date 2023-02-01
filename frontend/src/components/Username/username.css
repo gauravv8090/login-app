@@ -4,7 +4,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 4px 30px #4747470b;
   backdrop-filter: blur(7.1px);
-  @apply border-4 border-gray-50 shrink-0 h-3/4 w-[30%] rounded-3xl py-20 px-7 min-w-max;
+  @apply border-4 border-gray-50 shrink-0 h-3/4 w-[28%] rounded-3xl py-10 px-7 min-w-max;
 }
 
 .profile_image {
@@ -12,7 +12,7 @@
   @apply hover:border-gray-200;
 }
 
-.textbox {
+.textboxx {
   @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
   @apply focus:outline-none;
 }
